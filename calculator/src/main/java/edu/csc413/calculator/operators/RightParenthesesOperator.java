@@ -5,7 +5,8 @@ import edu.csc413.calculator.evaluator.Operand;
 public class RightParenthesesOperator extends Operator {
     @Override
     public int priority() {
-        return -1;
+        //giving this object the highest priority so the program focuses on the calculators within "( )"
+        return 4;
     }
 
     @Override
