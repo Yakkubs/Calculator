@@ -90,9 +90,9 @@ public class EvaluatorUI extends JFrame implements ActionListener {
                 break;
             case("="):
                 try {
-                    this.expressionTextField.setText(String.valueOf(ev.evaluateExpression(this.expressionTextField.getText())));
-                } catch (InvalidTokenException e) {
-                    throw new RuntimeException(e);
+                    this.expressionTextField.setText(Integer.toString(ev.evaluateExpression(this.expressionTextField.getText())));
+                } catch (Exception temp) {
+                    this.expressionTextField.setText("Invalid Expression");
                 }
                 break;
             default:
