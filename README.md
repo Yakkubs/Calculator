@@ -2,8 +2,6 @@
 
 ## Student Name  : Yakoub Alkabsh
 
-## Student ID    : 917108002
-
 ## Student Email : yalkabsh2@sfsu.edu
 
 ### Note failure to completely fill out this README.md could cause you to recieve a  0 for your project until correctly done
